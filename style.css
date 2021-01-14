@@ -1,0 +1,71 @@
+.board {
+    width: 350px;
+    margin: auto
+}
+
+.info {
+    width: 350px;
+    margin: auto;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+div#socialSharing a span.fa-lg {
+    border-radius: 50%;
+    margin: 1%;
+    color: #FFFFFF;
+}
+ 
+div#socialSharing a span.fa-lg i {
+    font-style: normal;
+}
+ 
+div#socialSharing a span#facebook {
+    background-color: #3b5998;
+}
+ 
+div#socialSharing a span#facebook:hover {
+    background-color: #133783;
+}
+ 
+div#socialSharing a span#twitter {
+    background-color: #1da1f2;
+}
+ 
+div#socialSharing a span#twitter:hover {
+    background-color: #2582bb;
+}
+ 
+div#socialSharing a span#pinterest {
+    background-color: #bd081c;
+}
+ 
+div#socialSharing a span#pinterest:hover {
+    background-color: #880e1c;
+}
+ 
+div#socialSharing a span#googleplus {
+    background-color: #db4437;
+}
+ 
+div#socialSharing a span#googleplus:hover {
+    background-color: #cf1808;
+}
+ 
+div#socialSharing a span#linkedin {
+    background-color: #0077b5;
+}
+ 
+div#socialSharing a span#linkedin:hover {
+    background-color: #02689d;
+}
+ 
+div#socialSharing a span#whatsapp {
+    background-color: #00E676;
+}
+ 
+div#socialSharing a span#whatsapp:hover {
+    background-color: #03c164;
+}
