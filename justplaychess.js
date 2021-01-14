@@ -1,3 +1,4 @@
+const moveAudio = new Audio('sounds/Move.mp3');
 // do not pick up pieces if the game is over
 // only pick up pieces for the side to move
 var onDragStart = function(source, piece, position, orientation) {
@@ -28,6 +29,7 @@ var onDrop = function(source, target) {
 	glb_source = source
 	glb_target = target
   updateStatus();
+  moveAudio.play()
 };
 
 // update the board position after the piece snap 
